@@ -79,7 +79,7 @@ export function Navbar() {
                 )}
               </Link>
             ))}
-              <Link href="/articles" className="relative text-sm font-medium transition-colors hover:text-primary">
+              <Link href="/articles" className="relative text-sm font-medium transition-colors hover:text-primary text-muted-foreground ">
                 Articles
               </Link>
           </div>
