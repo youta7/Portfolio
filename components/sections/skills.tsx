@@ -45,7 +45,7 @@ export  function SkillSection() {
     { 
       name: "Python", 
       level: 90, 
-      icon: SiDjango, 
+      icon: "SiDjango", 
       description: "Python is a popular, high-level, and versatile programming language known for its clear and readable syntax.",
       projects: ["Machine Learning Project", "Chatbot", "Web Scraper"]
     },
