@@ -61,23 +61,25 @@ export function AboutSection() {
           {/* Image Column */}
           <div className="relative">
             <motion.div
-              initial={{ scale: 0.9, opacity: 0 }}
+              initial={{ scale: 0.9, opacity: 0.5 }}
               whileInView={{ scale: 1, opacity: 1 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.5 }}
+              transition={{ duration: 0.2 }}
               className="relative aspect-square rounded-2xl overflow-hidden"
             >
               <Image
-                src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1288&auto=format&fit=crop"
+                src="/face.png"
                 alt="Profile"
-                fill
-                className="object-cover"
+                width={1200}
+                height={1200}
+                className="object-cover w-full h-full"
                 priority
+                quality={100}
               />
               <motion.div 
-                className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent"
+                className="absolute inset-0 bg-gradient-to-t from-primary/60 to-transparent"
                 initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
+                animate={{ opacity: 0.25 }}
                 transition={{ duration: 1 }}
               />
             </motion.div>
@@ -235,7 +237,7 @@ export function AboutSection() {
         </motion.div>
 
         {/* Glowing orbs */}
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full max-w-4xl max-h-4xl opacity-30 pointer-events-none">
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full max-w-4xl max-h-4xl opacity-30 pointer-events-none -z-10">
           <div className="absolute top-0 left-0 w-72 h-72 bg-primary rounded-full mix-blend-multiply filter blur-xl animate-blob" />
           <div className="absolute top-0 right-0 w-72 h-72 bg-secondary rounded-full mix-blend-multiply filter blur-xl animate-blob animation-delay-2000" />
           <div className="absolute bottom-0 left-1/2 w-72 h-72 bg-accent rounded-full mix-blend-multiply filter blur-xl animate-blob animation-delay-4000" />
