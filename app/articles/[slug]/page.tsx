@@ -268,8 +268,6 @@ However, many researchers and tech workers have realized that separating basic t
 But there are significant challenges to employees’ movements, especially as there are signs that companies are attempting to curb organized internal protests and are making a move towards less transparency in executive decisions. It will be up to movements such as The Tech Workers Coalition, which was formed in 2014 and evolved into an initiative to empower tech workers who want more say in their companies’ decisions, to give a strong voice to workers across the industry and to strive towards long-term success.
 
 In 2020, the growing movement of workers in powerful technology companies must continue to push towards a more democratic, inclusive and transparent development of AI technologies that are safe and bring benefits for all.
-
-### https://doi.org/10.1038/s42256-019-0131-3
 `,
   },
 ];
