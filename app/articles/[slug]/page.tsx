@@ -8,7 +8,7 @@ const articles = [
     summary:
       "The virtual VideoCAD tool could boost designers’ productivity and help train engineers learning computer-aided design.",
     date: "2025-11-19",
-    slug: "optimizing-ai-model-performance",
+    slug: "New-AI-agent",
     image: "/1.png",
     thumbnail: "/pexels-tara-winstead-8386440.jpg",
     content: `\
@@ -51,7 +51,7 @@ Once trained on this dataset, which they dub VideoCAD, the new AI model could ta
     title: "The cost of thinking",
     summary: "MIT neuroscientists find a surprising parallel in the ways humans and new AI models solve complex problems.",
     date: "2025-11-19",
-    slug: "ethical-ai-best-practices",
+    slug: "The-cost-of-thinking",
     image: "/2.png",
     thumbnail: "/2.png",
     content: `\
@@ -95,7 +95,7 @@ The researchers point out that even though reasoning models generate internal mo
     title: "MIT Energy Initiative launches Data Center Power Forum",
     summary: "MIT faculty and MITEI member company experts address power demand from data centers.",
     date: "2025-11-07",
-    slug: "ai-in-healthcare-transforming-patient-care",
+    slug: "MIT-Energy-Initiative",
     image: "/3.png",
     thumbnail: "/3.png",
     content: `\
@@ -127,7 +127,7 @@ MITEI addressed the issue of data center power needs with its company members du
     title: "Creating AI that matters",
     summary: "How the MIT-IBM Watson AI Lab is shaping AI-sociotechnical systems for the future.",
     date: "2025-11-07",
-    slug: "the-future-of-robotics",
+    slug: "Creating-AI-that-matters",
     image: "/4.png",
     thumbnail: "/4.png",
     content: `\
@@ -185,7 +185,7 @@ A significant piece of what makes this research ecosystem thrive is the steady i
     title: "Checking the quality of materials just got easier with a new AI tool",
     summary: "Acting as a “virtual spectrometer,” SpectroGen generates spectroscopic data in any modality, such as X-ray or infrared, to quickly assess a material’s quality.",
     date: "2025-10-14",
-    slug: "machine-learning-in-finance",
+    slug: "Checking-the-quality-of-materials",
     image: "/5.png",
     thumbnail: "/5.png",
     content: `\
@@ -244,15 +244,44 @@ The team is exploring ways to adapt the AI tool for disease diagnostics, and for
 ### Related Topics: Artificial intelligence, Imaging, LightMachine learning,Manufacturing, Materials science and engineering, Mechanical engineering, ResearchSchool of Engineering
 `,
   },
+  {
+    id: 6,
+    title: "A voice for tech workers",
+    summary: "The reach of artificial intelligence technologies across all parts of society is steadily growing, but so is the awareness of how they can negatively impact human rights. As 2019 draws to a close, the trajectory of technological progress defined by big technology companies is meeting resistance.",
+    date: "2019-12-10",
+    slug: "A-voice-for-tech-workers",
+    image: "/6.png",
+    thumbnail: "/6.png",
+    content: `\
+This year has shown that pushback against powerful and potentially harmful AI technologies can be successful. There is much debate around the use of facial recognition in surveillance applications. After protests from human-rights groups and calls from politicians, government bans on facial recognition are now in place in four major US cities. Within big technology companies such as Google, Microsoft and Amazon, a growing movement of workers are raising the alarm over the possible harmful impact of their companies’ products and services. Earlier this year, a group called Googlers for Human Rights urged Google to back away from bidding for a cloud computing contract that involved processing immigrant data for the US Immigration and Customs Enforcement agency (ICE). ICE has been widely criticized over multiple incidents of inhumane treatment of immigrants, including children. In 2018, several employees resigned and around 4,000 of them signed a petition in protest against Google’s involvement in another US government project, Project Maven, which analyses drone footage and identifies potential strike targets. Google withdrew from the collaboration. A few months later, Google backed out of bidding for the US Department of Defense’s Joint Enterprise Defense Infrastructure (JEDI) contract, a US$10 billion cloud infrastructure project.
+
+Also this year, over 8,500 Amazon employees mobilized and called upon the company to face up to its contribution to climate change. In an open letter, CEO Jeff Bezos and directors were urged to formulate a comprehensive climate plan. Under threat of a massive walkout, Bezos announced a climate pledge on 19 September in which he committed to net-zero carbon emissions for the company by 2040.
+
+But such employee-led campaigns are not always successful. GitHub, the code and software repository owned since mid-2018 by Microsoft, recently saw several employees resign over their own contract with ICE. In a recent memo, GitHub CEO Nat Friedman pledged to donate US$500,000 to charities that support immigrants, which is remarkable as the contract itself is worth US$200,000. However, this move drew further criticism from employees, who argued in an open letter that money cannot offset human lives. Amazon and Microsoft employees have also asked their CEOs to cut ties with ICE. The JEDI contract was eventually awarded to Microsoft, despite internal protests from their workers.
+
+- Silicon Valley has a rich history of working on government and military projects, starting with the Second World War. And the issues can be complex: technologies that can potentially be used for harm can also save lives. In the aforesaid memo, GitHub CEO Friedman argues that software technologies “could be used in projects that support policies we both agree and disagree with”, pointing out that, for instance, ICE can employ Github’s services in the fight against human trafficking. According to Friedman, companies should advocate their values in a democracy by using their corporate voice, not by unplugging technology. Brad Smith, the president of Microsoft, made a similar point last year in response to the debate over whether Microsoft should bid for JEDI, arguing that the company should use its knowledge and voice as a corporate citizen to address ethics concerns over AI technology in weapons and warfare through the country’s democratic processes. An underlying argument is that companies are providing a tool or service to government parties that have been elected by the public: it’s the government that holds the ultimate responsibility for use of technology.
+
+However, many researchers and tech workers have realized that separating basic technology development and real-world applications in this way can become an untenable position. The petition from Google employees last year asking the company to withdraw from Project Maven opened with “We believe that Google should not be in the business of war” and argued that moral responsibility for the technologies the company develops should not be outsourced. In a BBC interview, former Google employee Laura Nolan explains how she understood that she would ultimately have been part of a ‘kill chain’ while working on Google Cloud infrastructure for Project Maven. She went on to contribute to the Campaign to Stop Killer Robots, a coalition of NGOs that works towards a full, worldwide ban on autonomous weapons.
+
+- There is a rich history of tech workers in Silicon Valley organizing to campaign against potentially harmful projects, often demanding a genuinely democratic say in how technologies are developed and used. Their in-demand skillset promises a powerful opportunity for them to achieve such influence. Many tech workers view themselves as politically progressive, and joined the industry because they genuinely believed in its power to bring positive change to the world. Their collective power has the potential to forge positive change from the inside.
+
+But there are significant challenges to employees’ movements, especially as there are signs that companies are attempting to curb organized internal protests and are making a move towards less transparency in executive decisions. It will be up to movements such as The Tech Workers Coalition, which was formed in 2014 and evolved into an initiative to empower tech workers who want more say in their companies’ decisions, to give a strong voice to workers across the industry and to strive towards long-term success.
+
+In 2020, the growing movement of workers in powerful technology companies must continue to push towards a more democratic, inclusive and transparent development of AI technologies that are safe and bring benefits for all.
+
+### https://doi.org/10.1038/s42256-019-0131-3
+`,
+  },
 ];
 
 export function generateStaticParams() {
   return [
-    { slug: "optimizing-ai-model-performance" },
-    { slug: "ethical-ai-best-practices" },
-    { slug: "ai-in-healthcare-transforming-patient-care" },
-    { slug: "the-future-of-robotics" },
-    { slug: "machine-learning-in-finance" },
+    { slug: "New-AI-agent" },
+    { slug: "The-cost-of-thinking" },
+    { slug: "MIT-Energy-Initiative" },
+    { slug: "Creating-AI-that-matters" },
+    { slug: "Checking-the-quality-of-materials" },
+    { slug: "A-voice-for-tech-workers" },
   ];
 }
 
@@ -262,6 +291,8 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
 
   // simple markdown-ish rendering for headings & paragraphs
   const lines = article.content.split("\n").filter((l) => l.trim() !== "");
+  // emphasize specific words across content
+  const emphasizeRegex = /(\b(?:criticism|Amazon|Microsoft|protests| Campaign to Stop Killer Robots)\b)/gi;
 
   return (
     <main className="min-h-screen bg-background text-foreground">
@@ -291,19 +322,7 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
           {lines.map((line, idx) => {
             const trimmed = line.trim();
 
-            // Emphasize 'Click by click' line
-            // if (trimmed.toLowerCase() === "click by click") {
-            //   return (
-            //     <h2
-            //       key={idx}
-            //       className="text-3xl md:text-3xl font-extrabold text-green-500 mb-8 mt-12 tracking-tight"
-            //     >
-            //       {trimmed}
-            //     </h2>
-            //   );
-            // }
-
-            // Emphasize 'Time versus tokens' as bold green heading with thicker and larger font
+           
             if (trimmed.toLowerCase() === "time versus tokens" || trimmed === "## Time versus tokens") {
               return (
                 <h2
@@ -317,20 +336,6 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
             }
 
 
-
-            // Highlight 'Reasoning models' in bold green, thicker and larger font within paragraphs
-            // const reasoningRegex = /(\bReasoning models\b)/g;
-            // if (reasoningRegex.test(trimmed)) {
-            //   const content = trimmed.replace(
-            //     reasoningRegex,
-            //     match => `<span style=''>${match}</span>`
-            //   );
-            //   return (
-            //     <p key={idx} className="text-3xl md:text-3xl font-extrabold text-green-500 mb-8 mt-12 tracking-tight" dangerouslySetInnerHTML={{ __html: content }} />
-            //   );
-            // }
-
-            // Markdown image ![alt](src)
             if (trimmed.startsWith("![")) {
               const match = trimmed.match(/!\[(.*?)\]\((.*?)\)/);
               if (match) {
@@ -363,6 +368,20 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
 
             // Bold for lines starting with -
             if (trimmed.startsWith("- ")) {
+              // If a line contains the word 'criticism', highlight it
+              if (emphasizeRegex.test(trimmed)) {
+                const content = trimmed.replace(
+                  emphasizeRegex,
+                  "<span class='text-green-500 font-extrabold'>$1</span>"
+                );
+                return (
+                  <p
+                    key={idx}
+                    className="text-base md:text-lg font-semibold text-foreground mb-2"
+                    dangerouslySetInnerHTML={{ __html: content }}
+                  />
+                );
+              }
               return (
                 <p key={idx} className="text-base md:text-lg font-semibold text-foreground mb-2">
                   {trimmed}
@@ -372,7 +391,20 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
 
             // ...existing code...
 
-            // Default paragraph
+            // Default paragraph — highlight 'criticism' when it appears
+            if (emphasizeRegex.test(trimmed)) {
+              const content = trimmed.replace(
+                emphasizeRegex,
+                "<span class='text-green-500 font-extrabold'>$1</span>"
+              );
+              return (
+                <p
+                  key={idx}
+                  className="text-base md:text-lg text-foreground mb-4"
+                  dangerouslySetInnerHTML={{ __html: content }}
+                />
+              );
+            }
             return (
               <p key={idx} className="text-base md:text-lg text-foreground mb-4">
                 {trimmed}
