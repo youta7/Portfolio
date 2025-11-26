@@ -74,7 +74,17 @@ const articles: Article[] = [
     image: "/6.png",
     thumbnail: "/6.png",
     content: `A voice for tech workers`
-  }
+  },
+  {
+    id: 7,
+    title: "Deceiving possibilities",
+    summary: "Robots are making a transition into human environments, where they can directly interact with us, in shops, hospitals, schools and more. Transparency about robots’ capabilities and level of autonomy should be integrated into the design from the start.",
+    date: "2019-11-12",
+    slug: "Deceiving-possibilities",
+    image: "/7.png",
+    thumbnail: "/7.png",
+    content: `Deceiving possibilities`
+  },
 ]
 
 export default function ArticlesPage() {
