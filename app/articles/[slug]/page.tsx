@@ -294,6 +294,34 @@ An Article in this issue explores an intriguing related question: in situations 
 Human interaction and cooperation with AI and robots is likely to be beneficial when users are offered a better and more realistic idea of the systems they are dealing with: their autonomy, purpose and limitations. And perhaps even their capability to deceive us.
 `,
   },
+  {
+    id: 8,
+    title: "Of conferences and conversations in AI",
+    summary: "The organizers of Cognitive Computational Neuroscience, a relatively new AI-themed meeting held recently in Berlin, are dedicated to encouraging informal interactions and conversations to tackle the challenge of bridging scientific cultures.",
+    date: "2019-10-9",
+    slug: "Of-conferences-and-conversations-in-AI",
+    image: "/8.png",
+    thumbnail: "/8.png",
+    content: `\
+A critical factor in generating new ideas is bringing researchers together to foster informal discussions about science. Such gatherings have played pivotal roles in the development of artificial intelligence (AI). For example, the founding of AI as a field is attributed to the 1956 Dartmouth Summer Research Project on Artificial Intelligence. In 1979, Geoffrey Hinton and James Anderson organized an influential conference that reignited interest in neural networks, which led to the book, Parallel Models of Associative Memory.
+
+In recent history, conferences have grown in size, making it difficult to facilitate informal discussions. Attendance at the Conference on Neural Information Processing Systems (NeurIPS), which started in 1987, has grown dramatically to over 8,000 attendees in 2018, fuelled by the boom in applications of deep learning. The subject matter of conferences also evolves over time, with NeurIPS now focusing more on AI, machine learning and statistics, and less on neuroscience.
+
+The Conference on Cognitive Computational Neuroscience (CCN) held its third annual meeting from 13–16 September 2019 in Berlin, Germany, with 600 attendees. CCN sits at the intersection of cognitive science, computational neuroscience and AI2,3. Such interdisciplinarity provides opportunities, but also challenges. Scientists from different backgrounds often don’t speak the same language, for example. They come from a variety of scientific cultures and university departments. They assess and judge the merits of each other’s work in different ways. A challenge, then, is how to bring people from such diverse backgrounds together and get them to talk.
+
+These challenges are widely encountered in interdisciplinary conferences. Tetsuya Ogata of Waseda University is area chair for the Conference on Robot Learning (CoRL), another newcomer in the landscape of AI-themed scientific meetings. Ogata told Nature Machine Intelligence that the CoRL organizers attempt to bridge differences in approaches between traditional roboticists, who come from mechanical and electrical engineering departments, and machine learning researchers, who come from computer or information science departments. Likewise, the recently formed Reinforcement Learning and Decision Making (RLDM) conference brings together researchers from a variety of fields, including machine learning, psychology, neuroscience and economics.
+
+The CCN organizers sought to create an unorthodox conference. As CCN co-founder Thomas Naselaris (Medical University of South Carolina) told Nature Machine Intelligence, “Everything that we tried, every change that we made, and everything that we’re doing that’s different from other conferences is focused on increasing the opportunities for people to interact.” One goal was to be non-hierarchical, such that prominent researchers would not sit in clusters talking to each other while people flitter around them. Rather, the aim was to make conversations as horizontal as possible, across disciplines and across academic ranks.
+
+A second goal was to provide ample and diverse opportunities for people to interact that would not occur at typical conferences. At the individual level, there was a special event called mind matching, an algorithmically optimized networking event. Participants met and engaged in conversation with someone else every 15 minutes over the course of 90 minutes.
+
+At the group level, there were cross-collaboration breakouts. Attendees gathered in groups to discuss six challenges related to cross-collaboration between cognitive science, computational neuroscience and AI. The conversations were kick-started by short presentations from invited discussion leaders, often followed by exercises or presentations by group members. Examples of the challenges included: how can we design cognitive tasks that challenge both cognitive and neural network models, and how should we benchmark models in cognitive computational neuroscience?
+
+At the community level, there was an event called ‘Challenges and controversies: the free-energy principle’. It featured Karl Friston (University College London), the originator of the free-energy principle for unifying global brain theories, and computational neuroscientist Jeff Beck (Duke University), with Rosalyn Moran (University of Bristol) as moderator. The format was a hybrid of discussion, debate and dialogue, with time at the end for interactions with the audience. The discussion considered whether the free-energy principle is a theory or a general framework, and how it relates to other ideas, such as Bayesian inference. Video from this event, as for all CCN talks, will be made freely available online.
+
+One theme during the community meeting at the end of the conference was an anxiety among neuroscientists that machine learning and AI are moving far more rapidly than neuroscientists can internalize. Neuroscientists sense that there is a good deal of useful material being developed in machine learning that can reveal something important about how the brain and cognition work. But it is mostly unclear which parts of this massive machine learning effort will end up being the most important for neuroscience, rather than being algorithmic developments with an engineering focus. This tension is not bad; in fact, it is driving a lot of good work. The tension is one reason why CCN is growing, and why interdisciplinary conferences and conversations are so important for future scientific discoveries.
+`,
+  },
 ];
 
 export function generateStaticParams() {
@@ -305,6 +333,7 @@ export function generateStaticParams() {
     { slug: "Checking-the-quality-of-materials" },
     { slug: "A-voice-for-tech-workers" },
     { slug: "Deceiving-possibilities" },
+    { slug: "Of-conferences-and-conversations-in-AI" },
   ];
 }
 
