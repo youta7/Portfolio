@@ -70,7 +70,7 @@ export function Footer() {
               "© 2025 Ramon Portfolio. All rights reserved.",
               "Created by Ramon Eng",
               "Phone: +1 (415) 619-6958",
-              "Email: ramon.eng59@gmail.com"
+              "Email: ramon.eng59@outlook.com"
             ].map((text, index) => (
               <p
                 key={index}
@@ -79,7 +79,7 @@ export function Footer() {
                 {text.startsWith('Phone:') ? (
                   <>Phone: <a  className=" hover:text-primary transition-colors duration-300">+14156196958</a></>
                 ) : text.startsWith('Email:') ? (
-                  <>Email: <a href="mailto:ramon.eng59@gmail.com" className="hover:underline hover:text-primary transition-colors duration-300">ramon.eng59@gmail.com</a></>
+                  <>Email: <a href="mailto:ramon.eng59@outlook.com" className="hover:underline hover:text-primary transition-colors duration-300">ramon.eng59@outlook.com</a></>
                 ) : text}
               </p>
             ))}
@@ -90,7 +90,7 @@ export function Footer() {
                 { icon: Github, href: "https://github.com/youta7", color: "text-purple-500" },
                 { icon: Linkedin, href: "https://linkedin.com/in/ramon-eng-177397392", color: "text-blue-500" },
                 // { icon: Twitter, href: "https://twitter.com/aniruddha_adak", color: "text-sky-500" },
-                { icon: Mail, href: "mailto:ramon.eng59@gmail.com", color: "text-red-500" },
+                { icon: Mail, href: "mailto:ramon.eng59@outlook.com", color: "text-red-500" },
                 // { icon: Users, href: "#contributors", color: "text-green-500" }
               ].map((social, index) => (
                 <Button

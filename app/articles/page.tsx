@@ -85,6 +85,16 @@ const articles: Article[] = [
     thumbnail: "/7.png",
     content: `Deceiving possibilities`
   },
+  {
+    id: 8,
+    title: "Of conferences and conversations in AI",
+    summary: "The organizers of Cognitive Computational Neuroscience, a relatively new AI-themed meeting held recently in Berlin, are dedicated to encouraging informal interactions and conversations to tackle the challenge of bridging scientific cultures.",
+    date: "2019-10-9",
+    slug: "Of-conferences-and-conversations-in-AI",
+    image: "/8.png",
+    thumbnail: "/8.png",
+    content: `Of conferences and conversations in AI`
+  },
 ]
 
 export default function ArticlesPage() {

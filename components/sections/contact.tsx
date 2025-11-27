@@ -52,7 +52,7 @@ export function ContactSection() {
 
     try {
       await emailjs.send(
-        "service_kaiuaqc",
+        "service_hvzupzb",
         "template_pbxk4g9",
         {
           name: formState.name,
