@@ -322,6 +322,34 @@ At the community level, there was an event called ‘Challenges and controversie
 One theme during the community meeting at the end of the conference was an anxiety among neuroscientists that machine learning and AI are moving far more rapidly than neuroscientists can internalize. Neuroscientists sense that there is a good deal of useful material being developed in machine learning that can reveal something important about how the brain and cognition work. But it is mostly unclear which parts of this massive machine learning effort will end up being the most important for neuroscience, rather than being algorithmic developments with an engineering focus. This tension is not bad; in fact, it is driving a lot of good work. The tension is one reason why CCN is growing, and why interdisciplinary conferences and conversations are so important for future scientific discoveries.
 `,
   },
+  {
+    id: 9,
+    title: "Return of cybernetics",
+    summary: "Brain–machine interfaces were envisioned already in the 1940s by Norbert Wiener, the father of cybernetics. The opportunities for enhancing human capabilities and restoring functions are now quickly expanding with a combination of advances in machine learning, smart materials and robotics.",
+    date: "2019-9-11",
+    slug: "Return-of-cybernetics",
+    image: "/9.png",
+    thumbnail: "/9.png",
+    content: `\
+Norbert Wiener saw intelligent behaviour emerging from a complex interaction of feedback loops. He noticed such feedback processes, involving sensors, signals and actuators, everywhere around him, including in all living systems and in human-machine interactions. For numerous engineering problems, Wiener's cybernetic theory of feedback, communication and control successfully solved problems in the 1940s, from applications in assembly lines and rockets.
+
+Ahead of his time, Wiener became deeply troubled about the implications of technology on society and on individuals. His outlook was pessimistic, as he worried about machines being used to control humans and to displace jobs. In his book The Human Use of Human Beings from 19501, Wiener warns against such a negative outcome for humanity and advocates for the development of technology that enhances the abilities of humans rather than controls them. In particular, Wiener describes how machines can mimic “communicative mechanisms” of the human nervous system and how this could be used for prosthetics and restoring human functions. These ideas were ahead of his time too, as the development of machines that can usefully interface with neural signals has taken some decades.
+
+Despite the practical successes of Wiener's cybernetics theory, it was largely ignored at the famous Dartmouth meeting in 1956, where a group of prominent computer scientists led by John McCarthy came together and founded the field of artificial intelligence. The outcome of the workshop was to push a research agenda firmly focused on logical reasoning approaches. John McCarthy admitted to have coined the term artificial intelligence partly to escape association with Wiener's theory.
+
+As a result, the term cybernetics became less known than artificial intelligence, but there is currently a revival of interest in and appreciation for Wiener's ideas, together with a renewed focus on augmentation of human abilities. Meanwhile, the development of brain–machine or neural interfaces has made substantial progress in the medical sciences since the 1970s, and the synergy with artificial intelligence research this past decade is bringing the different strands of research together.
+
+Neural interfaces, now a topic of significant, multi-disciplinary interest, read out electrical activity from the nervous system, with the aim to decode the signal with computational methods into cognitive, sensory or motor information. This information can then be used to control a prosthetic device, robot or computer. With the advent of microelectrode technologies, invasive approaches where neural activity is measured within the skull have advanced substantially and a breakthrough result where two tetraplegic patients could steer a robot arm with their mind was reported in 2012.
+
+In non-invasive approaches such as electroencephalography (EEG), brain activity is measured with electrodes placed on the scalp, which has the advantage that no surgery is required. Decoding the recorded signals into useful real-time information is challenging, but advances in materials engineering and machine learning in the past decade are showing promise. In an Article in this issue, Yeo et al. demonstrate a compact and lightweight, scalp-wearable device that reads out visually evoked electrical signals with high resolution. A deep learning algorithm is trained to classify the signals and can be used offline. In one experiment (with able-bodied subjects) it is shown that a wheelchair can be controlled in real time, demonstrating the practical promise of this approach.
+
+In a separate Article, Micera et al. present an advance that could improve the utility of myoelectric prosthetics, which read out the activity of remaining muscles to control a robotic limb. The researchers develop a shared control approach, where user movement intention is decoded for dexterity but grasping is assisted with automated control for robustness.
+
+It seems likely that the field of brain-machine interfaces will evolve quickly, especially given the promise for a multitude of medical applications. At the same time, ethical concerns arise, especially regarding invasive devices that do not just read out but also stimulate neural activity, such as treatments for Parkinson's disease and epilepsy patients4. Such neural manipulation can affect a patient's autonomy and sense of personhood5, and it is a challenging task to weigh complex neuroethical concerns against medical benefits.
+
+Recently, Elon Musk announced plans for his company Neuralink to start clinical trials next year with a tiny chip placed inside the brain, with medical applications in mind6. But Musk's long-term agenda — enabling humans to link their brains to computers to keep pace with AI — is well known. This seems to be a diversion. Recalling Norbert Wiener's worries about the 'human use of human beings', brain-machine interfaces should be pursued with the goal to enable humans to keep and regain control of their lives.
+`,
+  },
 ];
 
 export function generateStaticParams() {
@@ -334,6 +362,7 @@ export function generateStaticParams() {
     { slug: "A-voice-for-tech-workers" },
     { slug: "Deceiving-possibilities" },
     { slug: "Of-conferences-and-conversations-in-AI" },
+    { slug: "Return-of-cybernetics" },
   ];
 }
 
