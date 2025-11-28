@@ -94,6 +94,15 @@ const articles: Article[] = [
     image: "/8.png",
     thumbnail: "/8.png",
     content: `Of conferences and conversations in AI`
+  },{
+    id: 9,
+    title: "Return of cybernetics",
+    summary: "Brain–machine interfaces were envisioned already in the 1940s by Norbert Wiener, the father of cybernetics. The opportunities for enhancing human capabilities and restoring functions are now quickly expanding with a combination of advances in machine learning, smart materials and robotics.",
+    date: "2019-9-11",
+    slug: "Return-of-cybernetics",
+    image: "/9.png",
+    thumbnail: "/9.png",
+    content: `Return of cybernetics`
   },
 ]
 
