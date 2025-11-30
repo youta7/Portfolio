@@ -350,6 +350,32 @@ It seems likely that the field of brain-machine interfaces will evolve quickly, 
 Recently, Elon Musk announced plans for his company Neuralink to start clinical trials next year with a tiny chip placed inside the brain, with medical applications in mind6. But Musk's long-term agenda — enabling humans to link their brains to computers to keep pace with AI — is well known. This seems to be a diversion. Recalling Norbert Wiener's worries about the 'human use of human beings', brain-machine interfaces should be pursued with the goal to enable humans to keep and regain control of their lives.
 `,
   },
+  {
+    id: 10,
+    title: "Call to action for robotics",
+    summary: "Robots can relieve humans of dangerous tasks. With the pandemic making physical contact potentially dangerous due to the risk of contagion, a new focus for robotic applications in healthcare has come into view.",
+    date: "2020-10-13",
+    slug: "Call-to-action-for-robotics",
+    image: "/10.png",
+    thumbnail: "/10.png",
+    content: `\
+Robots occupy a large role in popular culture, but wide adoption of robotic technology has been a slow process. A combination of technical challenges and social reluctance have made it hard to identify applications that are beneficial and acceptable to users. But the worldwide healthcare crisis caused by the pandemic has swept aside many of these hurdles, and robotic applications are appearing at high speed — from basic telepresence applications for patients and those who have to self-isolate, to semi-autonomous cleaning and disinfecting robots, to more advanced surgical robots. There is a clear willingness to try new technologies, motivated by a general feeling of urgency that societies have to adapt quickly to an unfamiliar and dangerous situation and protect healthcare workers on the frontline. Worldwide, roboticists are responding to the call to action.
+
+  \n![VideoCAD](/insert1.png)\n\
+
+Advances and interest in medical robotics, a slowly but steadily growing area, have sped up during the pandemic. The Perspective in this issue by Ajmal Zemmar and colleagues gives a detailed view of how robots can help and protect patients and staff in the surgical environment and complete workflow — in pre- and post-operative care, anaesthesia, and surgical procedures. A major application area that has opened for robotics is surface disinfection with ultraviolet light, in surgical environments as well as public spaces. This has brought new and interesting challenges for robotics in sensing, motion planning and manipulation, as more advanced disinfectant bots could soon take on complicated cleaning tasks in difficult areas that still require humans.
+
+Robotic surgery has made substantial advances in recent years. However, Zemmar et al. discuss the need for further development of minimal contact or fully contactless surgery workflows that reduce the number of staff required in the operating room. A technology that supports contactless procedures — recently emerging and not a moment too soon — is magnetic navigation of surgical probes. Elsewhere in this issue, an Article by Scaglioni et al. reports an advance with magnetically guided colonoscopy. The increased number of motions a magnetically controlled endoscope can perform, in comparison with a traditional one, poses a problem for clinicians and operators, who not only have to concentrate on the task they are performing but also on how to control the system. The solution can be an increased level of autonomy of the system: either by translating simple motion commands into the more complex robotic control, or by navigating towards a target autonomously with the operator concentrating on the selection of the target.
+
+Technologies such as these may have an impact beyond the COVID-19 crisis. A fall-out of the pandemic highlighted by the Perspective is delays and postponements of elective surgical procedures of patients, which will have long-term consequences for public health and mental well-being. In addition, many hospitals are facing financial difficulties as they are deprived of a source of income. The authors believe that acquiring new surgical robotic systems, while initially a costly investment, will have a longer-term economic benefit that goes beyond the pandemic.
+
+Several reports have shared uplifting stories of friendly robots helping out in the pandemic, such as humanoid robots greeting patients and checking their temperature, robots reminding citizens to socially distance in public spaces, and delivery robots safely distributing food and medicine. This bodes well for the field of robotics, which is freshly motivated and inspired to find new ways for robots to help humans. At a time of social distancing and isolation, robots are re-imagined as capable of offering a human touch.
+
+While the shift in public perception and increased willingness to work with robots are positive developments, we should take care that these technological solutions and deployments are not causing or contributing to long-term problems in society. The social, human and ethical implications still have to be thought through in adopting robotic technology. There are questions around deploying robots that currently may not be getting the attention that they deserve, such as whether the use of robots in certain healthcare settings may be enlarging the digital divide in society, and where responsibility lies when robots accidentally harm humans. The latter issue is a thorny one for medical robots that may be operating at varying levels of autonomy.
+
+The fields of AI and robotics are well positioned to help save lives in the pandemic. The ethical questions that arise are challenging but can’t be overlooked — ethics with urgency is needed to make the most of opportunities to try the new technology, while ensuring that improvements to the healthcare system are robust and long-lasting.
+`,
+  },
 ];
 
 export function generateStaticParams() {
@@ -363,6 +389,7 @@ export function generateStaticParams() {
     { slug: "Deceiving-possibilities" },
     { slug: "Of-conferences-and-conversations-in-AI" },
     { slug: "Return-of-cybernetics" },
+    { slug: "Call-to-action-for-robotics" },
   ];
 }
 
@@ -373,7 +400,7 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
   // simple markdown-ish rendering for headings & paragraphs
   const lines = article.content.split("\n").filter((l) => l.trim() !== "");
   // emphasize specific words across content
-  const emphasizeRegex = /(\b(?:criticism|Amazon|Microsoft|protests| Campaign to Stop Killer Robots| collection of robots took to the floor)\b)/gi;
+  const emphasizeRegex = /(\b(?:criticism|Amazon|Microsoft|protests| technical challenges and social reluctance| call to action|autonomy|uplifting stories| Campaign to Stop Killer Robots| collection of robots took to the floor)\b)/gi;
 
   return (
     <main className="min-h-screen bg-background text-foreground">
