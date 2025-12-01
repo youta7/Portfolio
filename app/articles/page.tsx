@@ -115,6 +115,16 @@ const articles: Article[] = [
     thumbnail: "/10.png",
     content: `Call to action for robotics`
   },
+  {
+    id: 11,
+    title: "Algorithms to live by",
+    summary: "The challenge of practically integrating an ethical and social approach in the development and implementation of AI needs to be urgently addressed, to help restore public trust in technology.",
+    date: "2020-09-14",
+    slug: "Algorithms-to-live-by",
+    image: "/11.png",
+    thumbnail: "/11.png",
+    content: `Algorithms to live by`
+  },
 ]
 
 export default function ArticlesPage() {
