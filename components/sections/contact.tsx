@@ -52,14 +52,14 @@ export function ContactSection() {
 
     try {
       await emailjs.send(
-        "service_hvzupzb",
-        "template_pbxk4g9",
+        "service_mvcfed7",
+        "template_eliichk",
         {
           name: formState.name,
           email: formState.email,
           message: formState.message,
         },
-        "lN7YGbCt9m7okwoaE"
+        "0e7W0H9P_duGB3ONP"
       );
 
       setIsSubmitting(false);
