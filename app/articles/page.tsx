@@ -125,6 +125,16 @@ const articles: Article[] = [
     thumbnail: "/11.png",
     content: `Algorithms to live by`
   },
+  {
+    id: 12,
+    title: "Next chapter in artificial writing",
+    summary: "OpenAI released a beta version of its language model, GPT-3. As artificial writing permeates our lives, the challenge is how to think clearly about what it is and what impact it could have on society.",
+    date: "2020-08-12",
+    slug: "Next-chapter-in-artificial-writing",
+    image: "/12.png",
+    thumbnail: "/12.png",
+    content: `Next chapter in artificial writing`
+  },
 ]
 
 export default function ArticlesPage() {
