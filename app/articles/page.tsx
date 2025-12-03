@@ -135,6 +135,16 @@ const articles: Article[] = [
     thumbnail: "/12.png",
     content: `Next chapter in artificial writing`
   },
+  {
+    id: 13,
+    title: "Technology can not fix this",
+    summary: "AI tools used in society often enhance inequality, affecting Black lives disproportionally. Addressing this issue will require more than technological solutions. Researchers and experts in the field are overwhelmingly white and need to engage and listen to those experiencing the harm.",
+    date: "2020-07-15",
+    slug: "Technology-can-not-fix-this",
+    image: "/13.png",
+    thumbnail: "/13.png",
+    content: `Technology can not fix this`
+  },
 ]
 
 export default function ArticlesPage() {
