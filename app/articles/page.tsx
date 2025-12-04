@@ -145,6 +145,16 @@ const articles: Article[] = [
     thumbnail: "/13.png",
     content: `Technology can not fix this`
   },
+  {
+    id: 14,
+    title: "Artificial intelligence in a crisis needs ethics with urgency",
+    summary: "Artificial intelligence tools can help save lives in a pandemic. However, the need to implement technological solutions rapidly raises challenging ethical issues. We need new approaches for ethics with urgency, to ensure AI can be safely and beneficially used in the COVID-19 response and beyond.",
+    date: "2020-06-22",
+    slug: "Artificial-intelligence-in-a-crisis-needs-ethics-with-urgency",
+    image: "/14.png",
+    thumbnail: "/14.png",
+    content: `Artificial intelligence in a crisis needs ethics with urgency`
+  },
 ]
 
 export default function ArticlesPage() {
