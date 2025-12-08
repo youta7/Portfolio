@@ -248,7 +248,7 @@ The team is exploring ways to adapt the AI tool for disease diagnostics, and for
     id: 6,
     title: "A voice for tech workers",
     summary: "The reach of artificial intelligence technologies across all parts of society is steadily growing, but so is the awareness of how they can negatively impact human rights. As 2019 draws to a close, the trajectory of technological progress defined by big technology companies is meeting resistance.",
-    date: "2019-12-10",
+    date: "2025-08-10",
     slug: "A-voice-for-tech-workers",
     image: "/6.png",
     thumbnail: "/6.png",
@@ -274,7 +274,7 @@ In 2020, the growing movement of workers in powerful technology companies must c
     id: 7,
     title: "Deceiving possibilities",
     summary: "Robots are making a transition into human environments, where they can directly interact with us, in shops, hospitals, schools and more. Transparency about robots’ capabilities and level of autonomy should be integrated into the design from the start.",
-    date: "2019-11-12",
+    date: "2025-07-12",
     slug: "Deceiving-possibilities",
     image: "/7.png",
     thumbnail: "/7.png",
@@ -298,7 +298,7 @@ Human interaction and cooperation with AI and robots is likely to be beneficial 
     id: 8,
     title: "Of conferences and conversations in AI",
     summary: "The organizers of Cognitive Computational Neuroscience, a relatively new AI-themed meeting held recently in Berlin, are dedicated to encouraging informal interactions and conversations to tackle the challenge of bridging scientific cultures.",
-    date: "2019-10-9",
+    date: "2025-05-09",
     slug: "Of-conferences-and-conversations-in-AI",
     image: "/8.png",
     thumbnail: "/8.png",
@@ -326,7 +326,7 @@ One theme during the community meeting at the end of the conference was an anxie
     id: 9,
     title: "Return of cybernetics",
     summary: "Brain–machine interfaces were envisioned already in the 1940s by Norbert Wiener, the father of cybernetics. The opportunities for enhancing human capabilities and restoring functions are now quickly expanding with a combination of advances in machine learning, smart materials and robotics.",
-    date: "2019-9-11",
+    date: "2025-03-11",
     slug: "Return-of-cybernetics",
     image: "/9.png",
     thumbnail: "/9.png",
@@ -354,7 +354,7 @@ Recently, Elon Musk announced plans for his company Neuralink to start clinical 
     id: 10,
     title: "Call to action for robotics",
     summary: "Robots can relieve humans of dangerous tasks. With the pandemic making physical contact potentially dangerous due to the risk of contagion, a new focus for robotic applications in healthcare has come into view.",
-    date: "2020-10-13",
+    date: "2025-01-13",
     slug: "Call-to-action-for-robotics",
     image: "/10.png",
     thumbnail: "/10.png",
@@ -380,7 +380,7 @@ The fields of AI and robotics are well positioned to help save lives in the pand
     id: 11,
     title: "Algorithms to live by",
     summary: "The challenge of practically integrating an ethical and social approach in the development and implementation of AI needs to be urgently addressed, to help restore public trust in technology.",
-    date: "2020-09-14",
+    date: "2024-10-14",
     slug: "Algorithms-to-live-by",
     image: "/11.png",
     thumbnail: "/11.png",
@@ -404,7 +404,7 @@ This year’s events call for confronting long-standing societal problems. AI te
     id: 12,
     title: "Next chapter in artificial writing",
     summary: "OpenAI released a beta version of its language model, GPT-3. As artificial writing permeates our lives, the challenge is how to think clearly about what it is and what impact it could have on society.",
-    date: "2020-08-12",
+    date: "2024-08-12",
     slug: "Next-chapter-in-artificial-writing",
     image: "/12.png",
     thumbnail: "/12.png",
@@ -430,7 +430,7 @@ At the same time, there is much work to be done to reflect on and tackle the dow
     id: 13,
     title: "Technology can not fix this",
     summary: "AI tools used in society often enhance inequality, affecting Black lives disproportionally. Addressing this issue will require more than technological solutions. Researchers and experts in the field are overwhelmingly white and need to engage and listen to those experiencing the harm.",
-    date: "2020-07-15",
+    date: "2024-07-15",
     slug: "Technology-can-not-fix-this",
     image: "/13.png",
     thumbnail: "/13.png",
@@ -452,7 +452,7 @@ At the same time, it is exhausting for Black scholars to keep explaining what th
     id: 14,
     title: "Artificial intelligence in a crisis needs ethics with urgency",
     summary: "Artificial intelligence tools can help save lives in a pandemic. However, the need to implement technological solutions rapidly raises challenging ethical issues. We need new approaches for ethics with urgency, to ensure AI can be safely and beneficially used in the COVID-19 response and beyond.",
-    date: "2020-06-22",
+    date: "2024-06-22",
     slug: "Artificial-intelligence-in-a-crisis-needs-ethics-with-urgency",
     image: "/14.png",
     thumbnail: "/14.png",
@@ -483,6 +483,30 @@ Third, an important aspect of ethics with urgency is building public trust in ho
 As the COVID-19 pandemic illustrates, times of crisis can necessitate rapid deployment of new technologies in order to save lives. However, this urgency both makes it more likely that ethical issues and risks will arise, and makes them more challenging to address. Rather than neglecting ethics, we must find ways to do ethics with urgency too. We strongly encourage technologists, ethicists, policymakers and healthcare professionals to consider how ethics can be implemented at speed in the ongoing response to the COVID-19 crisis. If ethical practices can be implemented with urgency, the current crisis could provide an opportunity to drive greater application of AI for societal benefit, and to build public trust in such applications.
 `,
   },
+  {
+    id: 15,
+    title: "Finding a role for AI in the pandemic",
+    summary: "Expectations are high for AI to help fight COVID-19. But before AI tools can make an impact, global collaboration and high-quality data and model sharing are needed.",
+    date: "2024-03-16",
+    slug: "Finding-a-role-for-AI-in-the-pandemic",
+    image: "/15.png",
+    thumbnail: "/15.png",
+    content: `\
+The worldwide health emergency caused by the spread of the SARS-CoV-2 virus has quickly mobilized scientists, and among those stepping up are machine learning researchers. In many ways, the field has been more than ready to answer the call to action. Having advanced at a fast pace in the past two decades, the machine learning community is accustomed to prompt sharing of results, preprint posting and open sourcing of code. Moreover, the past few years have seen a growing interest from the community in putting machine learning models to use in ways that benefit society and promote sustainable development goals. Major machine learning conferences like the Conference on Neural Information Processing Systems and the International Conference on Machine Learning have run popular workshops on ‘AI for social good’ applications.
+
+There are many ways that machine learning researchers can contribute, such as in epidemic modelling, diagnosis, predicting patient outcomes and triaging, drug discovery, detecting misinformation on social media and identifying regions where aid is most needed in low-income countries. But with this surge of attention, blind spots have become visible. Across three Comments in this issue (by Miguel Luengo-Oroz et al., Yipeng Hu et al. and Nathan Peiffer-Smadja et al.), experts highlight the challenges that need to be tackled before AI can have a beneficial global impact. As Luengo-Oroz et al. point out, a first challenge is knowing where to start with developing AI tools that can be most effective, which requires close cooperation with practitioners at the healthcare frontline. The best solutions may involve adapting already validated systems rather than building new tools from scratch. Furthermore, Hu et al. describe how clinical needs are evolving as the pandemic is moving through different stages, from early detection and anticipation, to containment and mitigation and finally eradication. During these transitions, the specific types of AI models may need to change too.
+
+All three Comments emphasize that good prediction models need large, inclusive data collaborations. So far, many new predictive and diagnostic models have been developed based on locally available data pipelines. The generation of such new models can be valuable, but represent only a first step, and the translation to clinically useful applications in new environments requires further work and validation. A substantial, global collaborative effort is required to promote immediate sharing of well-documented, anonymized datasets to develop AI models that can be widely used.
+
+Another challenge is that while sharing of code may be widely practised, this is not universally the case. The problem was highlighted prominently for the pandemic prediction model developed at Imperial College, which informed the UK government strategy, and whose developers acknowledged that the “thousands of lines of undocumented C” would require multiple days of training in order for others to use the code. Work quickly began to refactor and document the code given the significance of the model predictions.
+
+This case points to a related issue, which is that even if code is available, this does not necessarily translate into reusability. To make code reproducible and useful for wider implementation, transparent documentation of model design, assumptions, inputs and hyperparameters are needed, as well as hardware requirements and licensing details. However, the right incentives need to be in place for researchers to focus more on developing reusable software and constructing high-quality datasets, rather than on reporting novel performance results. The San Francisco Declaration on Research Assessment, signed by over 1,950 organizations (including Springer Nature), encourages a rethinking of how scientific research outputs are evaluated beyond conventional journal metrics.
+
+There are many lessons to be learned for the world of scientific research from this pandemic, and that includes scientific publishing, which needs to cope with the overwhelming amount of research papers that have been produced on COVID-19. Researchers in robotics had their wake-up call in 2011 after tsunami waves struck Japan’s Fukushima Daiichi nuclear power plant. Despite impressive robot demonstrations in the preceding decade, robots turned out to be of little help in the most urgent stages of the disaster, to the disappointment of many researchers. The field came together to develop robots better equipped to deal with realistic, challenging environments and scenarios, such as by organizing disaster challenges that stimulate innovation and test robots’ readiness to deal with emergency situations.
+
+Like a nuclear or natural disaster, the pandemic is fast moving and events are difficult to predict. Approaches are needed that can be quickly adapted and of use in various local conditions and countries. The health emergency caused by COVID-19 quickly got the attention of the machine learning field. Now that many of the challenges around data and model sharing, local adaptation and prioritizing work where clinical needs are greatest have been identified, more AI solutions can be expected that are inclusive and will make a global impact.
+`,
+  },
 ];
 
 export function generateStaticParams() {
@@ -501,6 +525,7 @@ export function generateStaticParams() {
     { slug: "Next-chapter-in-artificial-writing" },
     { slug: "Technology-can-not-fix-this" },
     { slug: "Artificial-intelligence-in-a-crisis-needs-ethics-with-urgency" },
+    { slug: "Finding-a-role-for-AI-in-the-pandemic" },
   ];
 }
 
