@@ -165,6 +165,16 @@ const articles: Article[] = [
     thumbnail: "/15.png",
     content: `Finding a role for AI in the pandemic`
   },
+  {
+    id: 16,
+    title: "Machine Learning for COVID-19 needs global collaboration and data-sharing",
+    summary: "The COVID-19 pandemic poses a historical challenge to society. The profusion of data requires machine learning to improve and accelerate COVID-19 diagnosis, prognosis and treatment. However, a global and open approach is necessary to avoid pitfalls in these applications.",
+    date: "2024-01-10",
+    slug: "Machine-Learning-for-COVID-19-needs-global-collaboration-and-data-sharing",
+    image: "/16.png",
+    thumbnail: "/16.png",
+    content: `Machine Learning for COVID-19 needs global collaboration and data-sharing`
+  },
 ]
 
 export default function ArticlesPage() {
