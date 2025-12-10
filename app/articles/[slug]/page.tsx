@@ -531,6 +531,32 @@ While standard statistical analyses are adapted for many clinical and epidemiolo
 The COVID-19 outbreak is not the first pandemic and is unlikely to be the last. For the first time, however, our societies have the means to provide a coordinated, evidence-based, fair and global public-health response. While the efficiency of this response may partly depend on ML, it depends even more crucially on our ability to set up global collaborations and data-sharing agreements that can accelerate the discovery and validation of promising interventions.
 `,
   },
+  {
+    id: 17,
+    title: "A match for virtual conferences",
+    summary: "Scientists have been getting concerned about the carbon footprint of international meetings and have been asking whether travelling to conferences is the best use of their time and funds. 2020 is turning out to be the year that many organizers decide to go virtual — and this was before COVID-19.",
+    date: "2023-12-05",
+    slug: "A-match-for-virtual-conferences",
+    image: "/17.png",
+    thumbnail: "/17.png",
+    content: `\
+The conference on Neural Information Processing Systems (NeurIPS), the largest annual machine learning conference, struggles with a year on year growing number of submissions and registrations, as attested by images of overcrowded poster sessions on social media last December. A positive outcome of the conference was the success of local meetups across the world, where participants gathered to attend online talks, hold discussions and engage in social interactions. Other fields are experimenting with the local meetup format: the photonics community, for instance, held its first major virtual meeting in January 2020, with 66 local meetups to encourage networking and interactions.
+
+The International Conference on Learning Representations (ICLR) was held on 26 April to 1 May 2020, and would have been the first major machine learning conference in Africa. Instead, it became fully virtual. The organizers redesigned the conference, which in many ways improved accessibility, not least by reducing the registration fee to US$100. Each paper had a pre-recorded five-minute video presentation with synchronized slides, a chatroom channel to ask questions, and live video ‘poster sessions’ scheduled across time zones. For many, this was preferable to the crowded environment typical of poster sessions in physical conferences, as attendees could manoeuvre through talks and ask questions at their own pace. To create the social spontaneity of a conference coffee break, ICLR Town was introduced to let people, as avatars, wander around a virtual town, starting or joining video chats with those ‘close by’.
+
+With COVID-19 preventing in-person meetings, at least temporarily, the time is ripe to explore the feasibility and advantages of virtual conferences. In the field of computational neuroscience, researchers have embraced the challenge, with ambitious plans to move online in a new series of conferences and a summer school. The neuromatch 1.0 conference was held online in March 2020, with some 3,000 registrants. Neuromatch 2.0 is scheduled for 25–27 May 2020, and neuromatch academy is a three-week online summer school planned for July 2020.
+
+Neuromatch has several advantages: no travel, no overhead associated with in-person events, and minimal software costs. The management and organization are handled by students, postdocs and faculty volunteers, who are committed to making the programmes a success. An essential component is collaborative tools such as Crowdcast, Zoom, Quire and Slack. From a participant’s perspective, registration for the conference is free, and the cost of the academy is free for the observer track (for those who want to ‘sit in’) or very low for the interactive track, where the money helps to pay the teaching assistants.
+
+One major challenge for neuromatch, as for all online conferences, is interaction. Being physically at a conference has the advantage of serendipitously meeting people, having spontaneous discussions and making new acquaintances. Undaunted, the organizers of neuromatch believe that virtual conferences can, with the right tools, promote social and professional interactions, perhaps even better than in-person conferences. As organizer Brad Wyble (Penn State University) told Nature Machine Intelligence: “In the personal social setting, you do have that sense of camaraderie, just from physical presence, hanging out in a dense social atmosphere. But the downside is that the likelihood of meeting the right people is very much due to chance.”
+
+The challenge is how to bring people together online by intellectual matchmaking. As it happened, Daniel Acuna (Syracuse University) and Titipat Achakulvisut (University of Pennsylvania), working in the lab of neuromatch organizer Konrad Kording (University of Pennsylvania), had created an algorithm that matched researchers based on inputs such as their scientific abstracts. At the in-person Cognitive Computational Neuroscience conferences in 2018 and 2019, the algorithm was used to match researchers with similar interests for one-on-one conversations, at an event called mind matching. The mind matching algorithm is being deployed in neuromatch with the goal of turning a perceived limitation of online events into a strength. As neuromatch organizer Dan Goodman (Imperial College London) told Nature Machine Intelligence: “You can not only replicate the experience of randomly meeting new people, but actually do better than that: you meet the right new people, because you can be directed to the people who you actually want to talk to.”
+
+Because COVID-19 has disrupted the training and careers of graduate students, postdoctoral fellows and early-career scientists, neuromatch academy was created as a massive online computational neuroscience summer school. As Megan Peters, chair of the executive committee, told Nature Machine Intelligence: “We have a lot of vulnerable young scientists at a critical stage in their careers, not being able to go to conferences and network, and not being able to go to summer schools to learn skills and make connections. We are responding to that in force.” The academy will provide a highly interactive platform, informed by mind matching, for grouping students, teaching assistants and mentors into pods for integrated lectures, hands-on tutorials and projects.
+
+Conference organizers from all sciences will learn much this year about what tools and approaches work well for virtual conferences and schools. When in-person meetings become feasible again, a complete return to previous practices is unlikely. Conference organizers will make considered choices about the best format for events, limiting travel where possible and making the most of virtual tools, boosting accessibility to scientific events for all researchers.
+`,
+  },
 ];
 
 export function generateStaticParams() {
@@ -551,6 +577,7 @@ export function generateStaticParams() {
     { slug: "Artificial-intelligence-in-a-crisis-needs-ethics-with-urgency" },
     { slug: "Finding-a-role-for-AI-in-the-pandemic" },
     { slug: "Machine-Learning-for-COVID-19-needs-global-collaboration-and-data-sharing" },
+    { slug: "A-match-for-virtual-conferences" },
   ];
 }
 

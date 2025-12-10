@@ -175,6 +175,16 @@ const articles: Article[] = [
     thumbnail: "/16.png",
     content: `Machine Learning for COVID-19 needs global collaboration and data-sharing`
   },
+  {
+    id: 17,
+    title: "A match for virtual conferences",
+    summary: "Scientists have been getting concerned about the carbon footprint of international meetings and have been asking whether travelling to conferences is the best use of their time and funds. 2020 is turning out to be the year that many organizers decide to go virtual — and this was before COVID-19.",
+    date: "2023-12-05",
+    slug: "A-match-for-virtual-conferences",
+    image: "/17.png",
+    thumbnail: "/17.png",
+    content: `A match for virtual conferences`
+  },
 ]
 
 export default function ArticlesPage() {
