@@ -185,6 +185,16 @@ const articles: Article[] = [
     thumbnail: "/17.png",
     content: `A match for virtual conferences`
   },
+  {
+    id: 18,
+    title: "Artificial intelligence cooperation to support the global response to COVID-19",
+    summary: "In an unprecedented effort of scientific collaboration, researchers across fields are racing to support the response to COVID-19. Making a global impact with AI tools will require scalable approaches for data, model and code sharing; adapting applications to local contexts; and cooperation across borders.",
+    date: "2023-10-12",
+    slug: "Artificial-intelligence-cooperation-to-support-the-global-response-to-COVID-19",
+    image: "/18.png",
+    thumbnail: "/18.png",
+    content: `Artificial intelligence cooperation to support the global response to COVID-19`
+  },
 ]
 
 export default function ArticlesPage() {
