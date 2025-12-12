@@ -195,6 +195,16 @@ const articles: Article[] = [
     thumbnail: "/18.png",
     content: `Artificial intelligence cooperation to support the global response to COVID-19`
   },
+  {
+    id: 19,
+    title: "The challenges of deploying artificial intelligence models in a rapidly evolving pandemic",
+    summary: "The attention and resources of AI researchers have been captured by COVID-19. However, successful adoption of AI models in the fight against the pandemic is facing various challenges, including moving clinical needs as the epidemic progresses and the necessity to translate models to local healthcare situations.",
+    date: "2023-09-01",
+    slug: "The-challenges-of-deploying-artificial-intelligence-models-in-a-rapidly-evolving-pandemic",
+    image: "/19.png",
+    thumbnail: "/19.png",
+    content: `The challenges of deploying artificial intelligence models in a rapidly evolving pandemic`
+  },
 ]
 
 export default function ArticlesPage() {
