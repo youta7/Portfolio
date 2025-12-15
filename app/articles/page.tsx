@@ -205,6 +205,16 @@ const articles: Article[] = [
     thumbnail: "/19.png",
     content: `The challenges of deploying artificial intelligence models in a rapidly evolving pandemic`
   },
+  {
+    id: 20,
+    title: "Pandemic data challenges",
+    summary: "The worldwide outbreak of COVID-19 has led to great tragedy and poses unprecedented challenges for countries’ healthcare systems. Data has become an important instrument in the global fight against the unprecedented spread of the virus. But how will we ensure a return to previous forms of data privacy once the pandemic subsides?",
+    date: "2023-08-17",
+    slug: "Pandemic-data-challenges",
+    image: "/20.png",
+    thumbnail: "/20.png",
+    content: `Pandemic data challenges`
+  },
 ]
 
 export default function ArticlesPage() {
