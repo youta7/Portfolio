@@ -215,6 +215,16 @@ const articles: Article[] = [
     thumbnail: "/20.png",
     content: `Pandemic data challenges`
   },
+  {
+    id: 21,
+    title: "Into the latent space",
+    summary: "Generative deep learning can produce artificial, natural-looking images and other data, which has many promising applications in research — and in art. But the wide availability of generative models poses a challenge for society, which needs tools and best practices to distinguish between real and synthetic data.",
+    date: "2023-06-10",
+    slug: "Into-the-latent-space",
+    image: "/21.png",
+    thumbnail: "/21.png",
+    content: `Into the latent space`
+  },
 ]
 
 export default function ArticlesPage() {
