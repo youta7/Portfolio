@@ -225,6 +225,16 @@ const articles: Article[] = [
     thumbnail: "/21.png",
     content: `Into the latent space`
   },
+  {
+    id: 22,
+    title: "The only game in town",
+    summary: "In a recent workshop at the Conference on Neural Information Processing Systems (NeurIPS), future directions at the intersection of neuroscience and AI were considered. A panel discussion at the end of the day started with a provocative question: do we need AI to understand the brain?",
+    date: "2023-04-01",
+    slug: "The-only-game-in-town",
+    image: "/22.png",
+    thumbnail: "/22.png",
+    content: `The only game in town`
+  },
 ]
 
 export default function ArticlesPage() {
