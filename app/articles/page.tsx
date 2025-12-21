@@ -235,6 +235,16 @@ const articles: Article[] = [
     thumbnail: "/22.png",
     content: `The only game in town`
   },
+  {
+    id: 23,
+    title: "Let’s go 2023",
+    summary: "Welcome to the new year, new decade and second volume of Nature Machine Intelligence.",
+    date: "2023-01-11",
+    slug: "Let-us-go-2023",
+    image: "/23.png",
+    thumbnail: "/23.png",
+    content: `Let’s go 2023`
+  },
 ]
 
 export default function ArticlesPage() {
