@@ -725,6 +725,34 @@ A further question for the panellists was to comment on two categories of resear
 Clearly, there is enthusiasm for exploring synergies between AI and neuroscience — a welcome development. Recent review articles5,6 and interdisciplinary conferences (for example, Cognitive Computational Neuroscience) attest to this enthusiasm. But challenges remain. Progress in neuroscience is slow; progress in deep learning is fast, at least in the past decade within certain domains. Interdisciplinary conversations and collaborations are essential, as exemplified in this workshop. Let the dialogue continue.
 `,
   },
+  {
+    id: 23,
+    title: "Let’s go 2023",
+    summary: "Welcome to the new year, new decade and second volume of Nature Machine Intelligence.",
+    date: "2023-01-11",
+    slug: "Let-us-go-2023",
+    image: "/23.png",
+    thumbnail: "/23.png",
+    content: `\
+We are looking forward to another year of providing a platform for research, commentaries and reviews in all areas of artificial intelligence, machine learning and robotics. These themes are pervading and transforming many scientific areas, as well as society itself. Our mission has been, and still is, largely twofold: first, to bring various disciplines together in reporting new scientific results and ideas in a way that is accessible, stimulating and reusable to as many other fields as possible; and second, to offer a forum for stimulating discussions and comments on the impact of AI.
+
+Who are ‘we’? Like other Nature Research journals, Nature Machine Intelligence is run by a small team of full-time editors who have a background in research and are independent from academic institutes or societies. We are fascinated by scientific research, are interested in matters that concern scientific communities and nurture a love for science communication. Do look us up on nature.com/natmachintell. We spend the day reading papers, discussing them, managing peer review, guiding revisions, commissioning articles, writing Editorials and other articles, editing, preparing articles for production and carrying out a multitude of quality checks. We also get out of the office, visiting labs and attending conferences. We are talking to as many experts as possible, about research but also about issues such as the challenges of reproducibility and interdisciplinary research (for example, see our recent Editorial).
+
+Most of our time goes into handling papers. We mentioned in our first Editorial that we mainly saw three main themes for our research articles, and this remains largely true. The first theme is the engineering side of machine intelligences: the development of new models, algorithms and hardware to build intelligent machines. The second theme is the application of machine intelligence (mainly deep learning systems) to specific topics in other domains — for example, in medicine, materials science and biology. The third theme is the scientific analysis and study of the impact of intelligent machines in science and society, incorporating insights from many fields, including the social sciences.
+
+Surveying our submissions in 2019, not surprisingly it turns out that over half of the papers fall into the second category. The significant uptake of deep learning tools in many fields is certainly noticeable. Particularly popular submissions were patient outcome prediction and diagnosis, imaging tools (in different types of imaging modalities at different length-scales), materials discovery, protein structure, sequencing and drug discovery.
+
+What took us by surprise was how many authors wrote to us with proposals for commentary-type articles, on a wide range of topics including global AI ethics guidelines, a definition for ‘robotics’ as a discipline, and gender bias in natural language processing. We found that the format of a Perspective, which is a combination of a review, analysis and opinion, gives authors a chance to explain their vision in depth. Take a look at our anniversary Collection for some good examples.
+
+There are clearly many talking points in AI and some topics move fast. We therefore approached authors who published Comments and Perspectives with us last year, up to about August, and asked them how the topic they wrote about has developed, whether their thinking has evolved and what their hopes or expectations are for 2020. Please see our special Feature this issue to read their inspiring and stimulating answers.
+
+We spent considerable time in 2019 on an important part of our mission, alluded to above — namely ensuring that research articles are accessible and reusable to others as much as possible. We have focused on transparent reporting of methods, and have guided authors in providing, where possible, detailed code and data availability statements. We have also encouraged authors to deposit code, dependencies and data on the Docker-based platform Code Ocean, to make their software easily cloud-executable for reviewers and readers. In collaboration with Code Ocean, in 2018 we started an initiative, together with Nature Methods and Nature Biotechnology, to facilitate peer review of code, providing anonymous access to executable code capsules and substantial computing time to referees. Please read this recent blog with a round-up of findings from this trial. We aim to try out more ideas in reproducibility, code and data reporting in 2020, including the consideration of replication studies. Thoughts and ideas from our authors and readers are very much welcome.
+
+We should now break our silence on a controversial issue. Before we launched, a number of machine learning researchers voiced their disapproval of the journal and called for a boycott because Nature Machine Intelligence is subscription-based. To be clear, Nature Machine Intelligence authors remain owners of the research reported, and the code and data supporting the main findings of an article should be openly available. Moreover, preprints are allowed, in fact encouraged, and a link to the preprint can be added below the abstract, visible to all readers. However, the final full pdf version of articles is, at the moment, not free to access. The boycott announcement, which called for open access articles that are produced at zero cost for authors, raised the question of what journals like ours can contribute to science publishing in AI. We hope that we have gone some way towards answering this question in 2019. At the heart of the matter, we feel, is the question of whether there is room for journals dedicated to high standards in science communication, transparency and reproducibility, curating, filtering and quality checking, which require full-time, salaried staff. We think there is. The debate on how to move towards open access is ongoing and it is likely that the science publishing world will be shifting soon in light of plan S and other initiatives.
+
+We continue to bring researchers from different disciplines together, and are grateful to all authors, reviewers and experts who have provided advice in helping us to achieve this goal. As voiced by several of our contributors to the Feature in this issue, it will be important in 2020 that researchers and communities work together across borders and cultures on a future with AI that benefits all.
+`,
+  },
 ];
 
 export function generateStaticParams() {
@@ -751,6 +779,7 @@ export function generateStaticParams() {
     { slug: "Pandemic-data-challenges" },
     { slug: "Into-the-latent-space" },
     { slug: "The-only-game-in-town" },
+    { slug: "Let-us-go-2023" },
   ];
 }
 
