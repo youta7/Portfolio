@@ -245,6 +245,16 @@ const articles: Article[] = [
     thumbnail: "/23.png",
     content: `Let’s go 2023`
   },
+  {
+    id: 24,
+    title: "Room for improvement",
+    summary: "Reflecting on 2020 brings into focus clear challenges for the year ahead, including for AI research that contemplates its broader societal impact.",
+    date: "2022-12-21",
+    slug: "Room-for-improvement",
+    image: "/24.png",
+    thumbnail: "/24.png",
+    content: `Room for improvement`
+  },
 ]
 
 export default function ArticlesPage() {
