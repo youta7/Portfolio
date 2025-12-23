@@ -255,6 +255,16 @@ const articles: Article[] = [
     thumbnail: "/24.png",
     content: `Room for improvement`
   },
+  {
+    id: 25,
+    title: "A new age for content filters",
+    summary: "A well-known internet truth is that if the product is free, you are the product being sold. But with a growing range of regulations and web content tools, users can gain more control over the data they interact with.",
+    date: "2022-11-10",
+    slug: "A-new-age-for-content-filters",
+    image: "/25.png",
+    thumbnail: "/25.png",
+    content: `A new age for content filters`
+  },
 ]
 
 export default function ArticlesPage() {
