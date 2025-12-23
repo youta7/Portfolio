@@ -779,6 +779,28 @@ Since last year, Nature Machine Intelligence has been asking authors for a broad
 The topic is likely to develop further in 2021, and at high pace. The pandemic has engendered reflection and introspection, and a growing awareness of the role of science and technology in the public sphere. Scientists must respond with greater transparency and accountability on the potential applications of their methods and findings. Hold tight for another intense year.
 `,
   },
+  {
+    id: 25,
+    title: "A new age for content filters",
+    summary: "A well-known internet truth is that if the product is free, you are the product being sold. But with a growing range of regulations and web content tools, users can gain more control over the data they interact with.",
+    date: "2022-11-10",
+    slug: "A-new-age-for-content-filters",
+    image: "/25.png",
+    thumbnail: "/25.png",
+    content: `\
+Information is made available on the web in large quantities and is mostly free, but it reaches us through filters. It has to, as there are simply too many articles, social media posts, news and entertainment items and much more streaming on a daily basis than users can possibly digest. Methods of selection and curation are essential. But who controls these filters for daily web content? Popular platforms such as Facebook and Google use highly tuned algorithms to provide personalized feeds of information. As has become clear in recent years, online platforms do not necessarily have consumers’ best interests in mind. These algorithms usually have two goals when recommending items, namely to keep a user engaged on the website for as long as possible and to present advertising content to as specific an audience as possible. These goals are not always aligned with presenting users with information they need or with safeguarding users’ mental health. Dangerously, platform algorithms contributed to the spread of misinformation during the last two US elections as well as during the current pandemic.
+
+It is possible for consumers to take some control of the content they receive by applying their own filters. Ad blockers that hide overly disruptive or malicious advertisements have been integrated into many browsers since 2015 and extensions exist that block additional advertisements and decrease the ability for ad-networks to track a user. One example is the anti-tracking Chrome extension of DuckDuckGo — a search engine that, just like Google, earns revenue from advertisement, but bases it on non-personal information related only to the search query requested. In 2019, Google’s Jigsaw launched Tune, an experimental web extension that uses machine learning to filter out hate speech on a range of social media platforms including Twitter and Facebook. The underlying Perspective API is also used by some online platforms to help moderate their content. Meanwhile, Tune and similar extensions have not caught on in the same way as ad-blockers have.
+
+In the spirit of encouraging the development of web filter technologies with users’ best interests in mind, Simon Mayer and colleagues propose in a Comment in this issue an approach they call ‘guerrilla modding’: user-side augmentation and customization of webpages. They develop a browser plug-in for online shops that offers additional product information, based on data retrieved from a remote database, to provide users with information they need rather than just what the platform offers. For example, as shown in the paper, nutritional information for food items can be added to pages of online shops to help consumers make healthier choices when buying food. A previous paper by the authors proposed the use of web plug-ins to combat misinformation by augmenting browsers with fact-checking annotations, similar to how social media platforms have started labelling potential misinformation. The crucial difference is that users make individual choices regarding content augmentation.
+
+Elsewhere on the web, users can modify and create content using recently developed generative deep learning models that are open source. A Perspective in this issue highlights positive uses of such technologies in edu-tainment and health applications. In particular, the authors demonstrate an approach to transform AI-generated characters into interactive avatars that are animated and voiced by a user’s webcam video. Embodying different characters could make online learning and interacting a personalized immersive experience.
+
+Although web extensions and content modification tools give users some control over the information they interact with on the web, large scale changes can only stem from policies that regulate how companies are allowed to handle data. Frances Haugen, a former Facebook employee and whistleblower, made a case that engagement based ranking is “doomed to amplify the worst in us”. In her testimony at a US Senate hearing, she argued to treat personalization and engagement based ranking not as neutral content delivery, but as an active curation for which Facebook should be held responsible. In both the US and the EU, discussions about how to regulate personalized ranking and personalized advertisement have been active this year. In the US, bills have been proposed that aim to make companies liable for harms created by their algorithmic ranking that go beyond transparent methods, such as chronological order. For the EU, a requirement to allow opt-out of personalized content curation has been included in a draft of the proposed Digital Services Act.
+
+The human–computer interaction landscape has drastically changed in the past decade or so with the growing amount of information available on the web in combination with the appearance of new content modification and generation tools. The possibility to filter and modify content clearly puts responsibility on users as well. Although this certainly comes with its own challenges, letting big tech companies fully control what content is fed to users cannot be a desirable alternative.
+`,
+  },
 ];
 
 export function generateStaticParams() {
@@ -807,6 +829,7 @@ export function generateStaticParams() {
     { slug: "The-only-game-in-town" },
     { slug: "Let-us-go-2023" },
     { slug: "Room-for-improvement" },
+    { slug: "A-new-age-for-content-filters" },
   ];
 }
 
