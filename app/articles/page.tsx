@@ -265,6 +265,16 @@ const articles: Article[] = [
     thumbnail: "/25.png",
     content: `A new age for content filters`
   },
+  {
+    id: 26,
+    title: "Optimizing the synergy between physics and machine learning",
+    summary: "Although the initial inspiration of neural networks came from biology, insights from physics have helped neural networks to become usable. New connections between physics and machine learning produce powerful computational methods.",
+    date: "2022-09-27",
+    slug: "Optimizing-the-synergy-between-physics-and-machine-learning",
+    image: "/26.png",
+    thumbnail: "/26.png",
+    content: `Optimizing the synergy between physics and machine learning`
+  },
 ]
 
 export default function ArticlesPage() {
