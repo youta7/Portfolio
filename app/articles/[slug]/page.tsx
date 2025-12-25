@@ -823,6 +823,26 @@ In statistical physics, optimization problems can be tackled with a computationa
 Many more fruitful interactions between physics and machine learning can be expected. There is much excitement around the promise of merging machine learning with quantum information approaches. One focus is accelerating machine learning with quantum computers — betting on the availability of reliable quantum hardware in the near future. Vice versa, concepts from machine learning are fuelling advances in quantum computing. Interested readers can find further inspiration in the comprehensive Review article from Giuseppe Carleo et al. or tune into the upcoming NeurIPS workshop on machine learning and the physical sciences.
 `,
   },
+  {
+    id: 27,
+    title: "Robotic body augmentation",
+    summary: "Can the human brain cope with controlling an extra robotic arm or digit added to the body?",
+    date: "2022-08-24 ",
+    slug: "Robotic-body-augmentation",
+    image: "/27.png",
+    thumbnail: "/27.png",
+    content: `\
+There are a variety of reasons to augment the physical abilities of humans with robotic systems controlled by the brain. For example, a doctor with an extra robotic arm could perform surgery without the need for an assistant. A person with an extra robotic finger or thumb could hold and manipulate objects in novel ways.
+
+What is holding back such capabilities? In the science fiction film Westworld (1973), guests at a futuristic theme park interact with androids. When one character asks how you can tell if a person is a robot or not, the other character answers that it is the hands, which the robot designers had not yet perfected. This answer was farsighted, as it is still a tremendous challenge to create robotic hands that can make dexterous movements like humans. Even a seemingly simple action such as picking up a pen to write is incredibly complex and involves several cognitive and motor control processes: the desire to use a pen and the decision to pick it up; a memory or representation may indicate where the pen is expected to be; a head movement is made towards the location, followed by eye movements and fixation on the pen; arm movements are generated to reach towards the pen with motor variables such as direction and speed; the fingers are controlled with precise levels of force, at exact moments, to grasp the pen depending on its precise pose and expected centre of gravity. Only then the act of writing itself can start, coordinating eye movements, reasoning and decision making (about what to write), as well as movement planning and execution at all times.
+
+In other words, the control of movement involves many brain areas, the spinal cord and different body parts, all working in unison in real-time, often without much conscious effort on the part of the person moving. Movement is thus embodied, and the moving person has evolved to interact with the physical environment. Moravec’s paradox is relevant to appreciate the nuances of motor control: sensorimotor skills are highly evolved, often unconscious, and require greater computational resources than high-level intelligence, such as reasoning, which occurred later in evolution and required relatively less computation. This complexity of movement in robotics may be a reason why OpenAI recently disbanded its robotics team after years of working on motor tasks such as solving a Rubik’s cube.
+
+In a Review article in this issue of Nature Machine Intelligence, Giulia Dominijanni et al. describe an approach to robotic body augmentation that attempts to combine neuroscience, engineering, human–machine interaction and wearable electronics. The authors discuss how the human brain can support the control of extra robotic limbs, and they introduce the 'neural resource allocation problem' as the voluntary control of augmentative devices without compromising the control of the biological body. The latter issue is crucial because the brain will have to accommodate and control extra robotic limbs in a variety of behavioural contexts, which may include somatosensation (sense of touch) and proprioception (awareness of position and movement) of extra limbs and biological limbs alike, for example. The authors emphasize that many technical and conceptual challenges are unresolved, such as whether the representation of a biological limb in the brain could be modulated or remapped by the use of extra robotic limbs, and what sensing technologies are needed to interface between extra robotic limbs and the user's brain. The authors call for a new field of robotic body augmentation with its own scientific and technological challenges and foundations. A recent development along these lines is the establishment of the Yang Center for Bionics at the Massachusetts Institute of Technology, where one of the priorities is “to restore natural, brain-controlled movements as well as the sensation of touch and proprioception… from bionic limbs”.
+
+Researchers studying augmented limbs and brain interfaces deal with similar challenges to researchers in robotics. Robots, augmented limbs and brain interfaces are fundamentally anchored in the physical world, learn from imperfect and uncertain information and have to potentially adapt continuously. The interaction with the physical world limits the amount of data that can be collected in diverse environments and under different conditions a disadvantage compared with applications in computer vision and language modelling. Although approaches are proposed to use simulations and non-robotic sources of data, for example, through the use of very large neural network models trained on general multi-modal data (see the recent white paper by Bommasani et al. on 'foundation models'), the minute difference between simulation assumptions and physical reality the so-called reality gap still poses a real problem. In the near future, the research vision outlined by Dominijanni and colleagues to combine perspectives from engineering, neuroscience and ethics will help us understand how extra robotic limbs are represented in the brain and how to implement them effectively so that they can be easily controlled by the person’s intentions.
+`,
+  },
 ];
 
 export function generateStaticParams() {
@@ -853,6 +873,7 @@ export function generateStaticParams() {
     { slug: "Room-for-improvement" },
     { slug: "A-new-age-for-content-filters" },
     { slug: "Optimizing-the-synergy-between-physics-and-machine-learning" },
+    { slug: "Robotic-body-augmentation" },
   ];
 }
 
