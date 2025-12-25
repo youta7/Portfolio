@@ -275,6 +275,16 @@ const articles: Article[] = [
     thumbnail: "/26.png",
     content: `Optimizing the synergy between physics and machine learning`
   },
+  {
+    id: 27,
+    title: "Robotic body augmentation",
+    summary: "Can the human brain cope with controlling an extra robotic arm or digit added to the body?",
+    date: "2022-08-24",
+    slug: "Robotic-body-augmentation",
+    image: "/27.png",
+    thumbnail: "/27.png",
+    content: `Robotic body augmentation`
+  },
 ]
 
 export default function ArticlesPage() {
