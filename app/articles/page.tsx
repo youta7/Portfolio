@@ -16,6 +16,16 @@ type Article = {
 
 const articles: Article[] = [
   {
+    id: 28,
+    title: "Strategies needed to counter potential AI misuse",
+    summary: "Researchers urgently need more guidance to help them identify and mitigate potential risks when designing projects that involve AI developments.",
+    date: "2025-12-10",
+    slug: "Strategies-needed-to-counter-potential-AI-misuse",
+    image: "/28.png",
+    thumbnail: "/28.png",
+    content: `Strategies needed to counter potential AI misuse`
+  },
+  {
     id: 1,
     title: "New AI agent learns to use CAD to create 3D objects from sketches",
     summary: "The virtual VideoCAD tool could boost designers’ productivity and help train engineers learning computer-aided design.",
