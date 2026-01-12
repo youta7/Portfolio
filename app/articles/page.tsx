@@ -16,6 +16,16 @@ type Article = {
 
 const articles: Article[] = [
   {
+    id: 29,
+    title: "Seeking clarity rather than strong opinions on intelligence",
+    summary: "Clear descriptions of intelligence in both living organisms and machines are essential to avoid confusion, sharpen thinking and guide interdisciplinary research. A Comment in this issue encourages researchers to answer key questions to improve clarity on the terms they use.",
+    date: "2026-01-06",
+    slug: "Seeking-clarity-rather-than-strong-opinions-on-intelligence",
+    image: "/29.png",
+    thumbnail: "/29.png",
+    content: `Clear descriptions of intelligence in both living organisms and machines are essential to avoid confusion, sharpen thinking and guide interdisciplinary research. A Comment in this issue encourages researchers to answer key questions to improve clarity on the terms they use.`
+  },
+  {
     id: 28,
     title: "Strategies needed to counter potential AI misuse",
     summary: "Researchers urgently need more guidance to help them identify and mitigate potential risks when designing projects that involve AI developments.",

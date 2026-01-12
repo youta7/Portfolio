@@ -3,6 +3,37 @@ import { notFound } from "next/navigation";
 
 const articles = [
   {
+    id: 29,
+    title: "Seeking clarity rather than strong opinions on intelligence",
+    summary:
+      "Clear descriptions of intelligence in both living organisms and machines are essential to avoid confusion, sharpen thinking and guide interdisciplinary research. A Comment in this issue encourages researchers to answer key questions to improve clarity on the terms they use.",
+    date: "2026-01-06",
+    slug: "Seeking-clarity-rather-than-strong-opinions-on-intelligence",
+    image: "/29.png",
+    thumbnail: "/29.png",
+    content: `\
+Some of the most profound concepts in artificial intelligence (AI) — such as intelligence, embodiment and consciousness — are widely used but notoriously difficult to define. Even when definitions are provided, they are often insufficiently detailed to fully explain an author’s position or to distinguish it from others.
+
+Why is this the case? The abstract nature of topics such as intelligence may make it inevitable that discussions focus only on certain aspects. For example, intelligence can refer to a person’s mental acuity, their “ability to comprehend or perceive” (from the Latin), or their ability to acquire and apply knowledge and skills. Although plausible, these definitions present intelligence as a patchwork of research areas, including perception, learning, memory, executive function, attention and even motor control if ‘skills’ are interpreted broadly. It is no surprise, then, that AI researchers Shane Legg and Marcus Hutter identified around 70 definitions of intelligence in the literature several years ago1.
+
+Might focusing on narrower concepts, such as reasoning or understanding, lead to greater clarity? Recent debates about whether large language models (LLMs) can reason or understand suggest otherwise. One camp argues that LLMs do not reason like humans but are simply synthetic media machines that predict the next word in a sequence based on vast datasets. By contrast, another group praises LLMs for their emerging reasoning abilities, pointing to their sophisticated architectures, data-driven representations and computational parallels to brain processes.
+
+These divergent perspectives often align with disciplinary boundaries. Researchers from a range of fields such as computer science, biology, cognitive science, engineering and social science bring unique insights to machine intelligence, creating both opportunities and challenges. On the positive side, interdisciplinary collaboration enriches the field, providing essential perspectives to tackle complex questions. However, it also exposes an important obstacle: researchers from different disciplines frequently talk past one another, addressing fundamentally different facets of the same issues.
+
+In a Comment in this issue of Nature Machine Intelligence, Nicolas Rouleau and Michael Levin address these challenges, calling for conceptual clarity across all forms of intelligence, including human, non-human, machine and biologically engineered systems. Discussing their motivation, Levin explains: “I was frustrated by the large number of papers, talks, and discussions — both in academia and public discourse — that offer strong opinions without defining their terms or addressing key questions, rendering many of these opinions untenable.”
+
+The authors highlight two crucial gaps in the current discourse. First, there is a lack of humility about our limited understanding of what gives rise to mind in biological systems. Second, there is a neglect of the diverse continuum of unconventional cognitive systems that are poised to become part of reality as science and technology evolve.
+
+Regarding these unconventional cognitive systems, Rouleau says: “Whether it is implemented by molecules, cells, liquid crystals, silicon or digital code, the essential operations of understanding are the same. Can the system acquire information external to itself? Can it generate an internal model of the external world by encoding information about it such that it can make predictions and inferences?”
+
+Rouleau and Levin present an unconventional framework to promote conceptual clarity in intelligence research. They propose a detailed set of questions for anyone writing about intelligence, urging them to answer these questions before forming strong opinions. Levin compares their approach to the use of checklists by journals to ensure clarity and rigor in primary research papers, particularly in areas such as statistics and experimental design. “The idea is that a manuscript needs to pass basic checks to ensure that the authors have accounted for common pitfalls and ways to be misled,” Levin explains.
+
+While advocating for conceptual clarity, Rouleau and Levin conclude by emphasizing that it is too early to hold strong opinions on machine intelligence. They caution against firmly committing to any position while the science and philosophy of the field remain highly uncertain.
+
+By encouraging researchers to engage with foundational questions and confront assumptions, Rouleau and Levin’s framework provides a practical tool for navigating the complexities of intelligence across biological, artificial and hybrid systems. As the boundaries between natural and machine intelligence continue to blur, embracing clarity and precision in our concepts is essential to achieve meaningful progress.
+`,
+  },
+  {
     id: 28,
     title: "Strategies needed to counter potential AI misuse",
     summary:
@@ -900,6 +931,7 @@ export function generateStaticParams() {
     { slug: "Optimizing-the-synergy-between-physics-and-machine-learning" },
     { slug: "Robotic-body-augmentation" },
     { slug: "Strategies-needed-to-counter-potential-AI-misuse" },
+    { slug: "Seeking-clarity-rather-than-strong-opinions-on-intelligence" },
   ];
 }
 
