@@ -88,7 +88,7 @@ export function Footer() {
             <div className="flex space-x-4">
               {[ 
                 { icon: Github, href: "https://github.com/youta7", color: "text-purple-500" },
-                { icon: Linkedin, href: "https://linkedin.com/in/ramon-eng-177397392", color: "text-blue-500" },
+                // { icon: Linkedin, href: "https://linkedin.com/in/ramon-eng-177397392", color: "text-blue-500" },
                 // { icon: Twitter, href: "https://twitter.com/aniruddha_adak", color: "text-sky-500" },
                 { icon: Mail, href: "mailto:ramonen61111@gmail.com", color: "text-red-500" },
                 // { icon: Users, href: "#contributors", color: "text-green-500" }
